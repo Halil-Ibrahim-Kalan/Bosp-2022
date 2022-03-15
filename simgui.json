@@ -1,0 +1,58 @@
+{
+  "HALProvider": {
+    "Other Devices": {
+      "Victor SPX[10]": {
+        "header": {
+          "open": true
+        }
+      },
+      "Victor SPX[7]": {
+        "header": {
+          "open": true
+        }
+      },
+      "Victor SPX[8]": {
+        "header": {
+          "open": true
+        }
+      }
+    },
+    "PWM Outputs": {
+      "window": {
+        "visible": true
+      }
+    }
+  },
+  "NTProvider": {
+    "types": {
+      "/FMSInfo": "FMSInfo",
+      "/LiveWindow/DriveTrain": "Subsystem",
+      "/LiveWindow/Hood": "Subsystem",
+      "/LiveWindow/Indexer": "Subsystem",
+      "/LiveWindow/Intake": "Subsystem",
+      "/LiveWindow/PhotonVision": "Subsystem",
+      "/LiveWindow/Shooter": "Subsystem",
+      "/LiveWindow/Trigger": "Subsystem",
+      "/LiveWindow/Ungrouped/DifferentialDrive[1]": "DifferentialDrive",
+      "/LiveWindow/Ungrouped/PWMTalonSRX[2]": "Motor Controller",
+      "/LiveWindow/Ungrouped/PWMTalonSRX[3]": "Motor Controller",
+      "/LiveWindow/Ungrouped/PWMTalonSRX[5]": "Motor Controller",
+      "/LiveWindow/Ungrouped/Scheduler": "Scheduler",
+      "/LiveWindow/Ungrouped/Victor SPX [10]": "Motor Controller",
+      "/LiveWindow/Ungrouped/Victor SPX [7]": "Motor Controller",
+      "/LiveWindow/Ungrouped/Victor SPX [8]": "Motor Controller"
+    },
+    "windows": {
+      "/LiveWindow/Ungrouped/DifferentialDrive[1]": {
+        "window": {
+          "visible": true
+        }
+      },
+      "/LiveWindow/Ungrouped/Scheduler": {
+        "window": {
+          "visible": true
+        }
+      }
+    }
+  }
+}
